@@ -1,0 +1,30 @@
+@import './classname.less';
+
+.MeCalendar{
+    .custom-cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+        
+
+        border-radius: 50%;
+        width: 38px;
+        height: 38px;
+
+        &-selected {
+        //   background: var(--adm-color-primary);
+            border: 2px @color-theme-1 solid;
+            color: #fff;
+        }
+      }
+      
+      .adm-calendar-cell-disabled{
+        color:rgb(238, 144, 144) !important;
+    }
+}
+
+.adm-calendar-cell{
+    color: white;
+  }

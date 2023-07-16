@@ -1,0 +1,57 @@
+@import './App.less';
+
+.Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+    padding-bottom: 5rem;
+    .Home-Header{
+        color:@color-theme-2;
+        font-weight: bold;
+        font-size: large;
+
+        width: 95%;
+        height: 3rem;
+        line-height: 3rem;
+    }
+    .Home-Swiper{
+        background-color: #fff;
+
+        width: 95%;
+        height: 8rem;
+        border-radius: 0.3rem;
+        .Home-Swiper-item{
+            display: flex;
+            justify-content: center;
+            .img{
+                width: 200px;
+                height: 3rem;
+            }
+        }
+   
+    }
+    .Home-Mid{
+        background-color: #fff;
+
+        width: 95%;
+        height: 8rem;
+        border-radius: 0.3rem;
+        margin-top: 1rem;
+        .Home-Mid-1{
+            padding: 0.5rem;
+            border-bottom: 1px #e0e0e0 solid;
+        }
+        .Home-Mid-2{
+            display: flex;
+            justify-content: space-around;
+
+            padding-top: 1rem;
+            img{
+                width: 15%;
+            }
+        }
+      
+    }
+}
